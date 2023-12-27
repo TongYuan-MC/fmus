@@ -1,0 +1,38 @@
+[INFO][FMUCHK] FMI compliance checker 2.0.4 [FMILibrary: 2.0.3] build date: Nov  6 2017
+[INFO][FMUCHK] Called with following options:
+[INFO][FMUCHK] fmuCheck.win32.exe -k me -o DFFREG_ref.csv -e DFFREG_cc.log -h 1e-4 -s 25 DFFREG.fmu
+[INFO][FMUCHK] Will process FMU DFFREG.fmu
+[INFO][FMILIB] XML specifies FMI standard version 1.0
+[INFO][FMUCHK] Model name: DFFREG
+[INFO][FMUCHK] Model identifier: DFFREG
+[INFO][FMUCHK] Model GUID: {af517780-812e-49bb-b6b3-076a9c2499b6}
+[INFO][FMUCHK] Model version: 
+[INFO][FMUCHK] FMU kind: ModelExchange
+[INFO][FMUCHK] The FMU contains:
+290 constants
+22 parameters
+26 discrete variables
+0 continuous variables
+0 inputs
+2 outputs
+336 internal variables
+0 variables with causality 'none'
+22 real variables
+316 integer variables
+0 enumeration variables
+0 boolean variables
+0 string variables
+
+[INFO][FMUCHK] Printing output file header
+[INFO][FMILIB] Loading 'win32' binary with 'standard32' platform types
+[INFO][FMUCHK] Version returned from FMU:   1.0
+[INFO][FMUCHK] Checking that FMI set functions can be called with zero length arrays
+[INFO][FMUCHK] Initialized FMU for simulation starting at time 0
+[INFO][FMUCHK] Checking that FMI get functions can be called with zero length arrays
+[INFO][FMUCHK] Simulation finished successfully at time 25
+FMU check summary:
+FMU reported:
+	0 warning(s) and error(s)
+Checker reported:
+	0 Warning(s)
+	0 Error(s)
