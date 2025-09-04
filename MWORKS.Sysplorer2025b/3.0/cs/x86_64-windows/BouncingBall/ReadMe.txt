@@ -17,7 +17,7 @@ Known Errors:
 None
 
 FMUChecker:
-reference-fmus Version 0.0.29
+reference-fmus Version 0.0.39
 
 run command for reference-fmus:
 set FMUName=BouncingBall
